@@ -1,0 +1,9 @@
+[source]
+uri=file:///path/to/video/video_01.mp4
+
+[output]
+enable-display=1
+enable-fps=1
+enable-file-out=1
+enable-bev-out=1
+use-map-background=1
