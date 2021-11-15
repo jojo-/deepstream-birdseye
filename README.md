@@ -1,4 +1,4 @@
-# Demo bird's eye View
+# Bird's eye view with DeepStream
 
 ## Introduction
 
@@ -177,8 +177,8 @@ This project has been coded in a single afternoon, thus there are a lot of poten
 Using the package, and the GPS coordinate of pixels in the camera view derived from Google Maps, it was possible to estimate:
 - the elevation of the camera: 30.2m;
 - the focal lenght: 3.01mm;
-- the tilt of the camera: 
-- and the heading of the camera.
+- the tilt of the camera: 72.0 degrees; 
+- and the heading of the camera: 121.8 degrees.
 
 The results of the estimation process is illustrated in the figure below. While this approach is promising, in practice, using the estimated parameters to create the homography matrix did not provide a better accuracy for the bird's eye view.
 
